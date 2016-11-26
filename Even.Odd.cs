@@ -17,7 +17,7 @@ namespace ConsoleApplication2
 
             Console.Write("Insert number: ");
             line = Console.ReadLine();
-            Number1 = int.Parse(line);
+            Number1 = float.Parse(line);
             Division = Number1 / 2;
             Remainder = Number1 % 2;
            
